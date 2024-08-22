@@ -1,5 +1,5 @@
 {
-  "name":"BYTE-MD-LITE",
+  "name":"CAXTON DERICK",
   "description":"A lite version of BYTE-MD for TalkDrove Followers",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/BYTE-MD-LITE.jpeg",
@@ -10,19 +10,19 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"*",
       "required":true
     },
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required":true
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required":true
     }
     ,
      "PM_PERMIT" :
@@ -35,8 +35,8 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BYTE-V.lite",
-      "required":false
+      "value":"Caxton",
+      "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
@@ -49,8 +49,8 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
-      "required":false
+      "value":"no",
+      "required":true
     }
 	,
     "HEROKU_APY_KEY": {
@@ -67,7 +67,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code make sure starts with Byt;;;",   
-      "value":"",
+      "value":"Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUlzNVJkV08yZHJlYXhXVUNlR05RNnZZZUJoVk45MXVEOU9VYXpUTGdVND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibXhhbThjNXVvV25YRmEvRjlFYm5IRjFKNFUwTEFRenJsRTgwbFc2SG5IOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLSlh0aVJrR3lYeDRGQlduWTFDNlJUNGIzVEtDU2dROGNTS2xMRzJnWVc0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtNlV0MEtkWVo2ZGY2YzRVbDFlM2VlQVpDNXBzWlhrTWhrWk5VcW1QSzM4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFIckE2djJLd1pmNjQrUktGL253T3c1dFBuKzhCclQ2MFNodldwWHRDRkU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjErNzZDUlpjemVQd0kyeDR1cTREdkVZNVAwdlRGUjUzb2RWM0FTVFJmeVE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOEl0bS9NeEhxRHU1N2hSNlNIUEZJU1JaQmhJaStCRXFJdHFUNU5HMVpuND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZWZnQUNYcXlMbERJK0Jyb3FUWThZd3FMMWZpbGIzRHJxV0VJNy9Sb0VCMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlJXSlNaNkoyMlJ5MU40R3R1cFBGem0zL3dJb3lTS24ybTlreWVNTkhpaGNCSlNOVW5YY3h2UitOQjJnaHRFU1czWnR4VCt6czZDN2xYbGd2OEtjTWp3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzksImFkdlNlY3JldEtleSI6Ik5mdUNHRWVDVGhLaXE3N3JqOGcxeFdDNE1XUkxDbmdxZ24wdnhvRWZSSzg9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InBsSnZtUFg0U1hta296VVVnb0NVTWciLCJwaG9uZUlkIjoiYWJmZWU5NzgtNzM0NC00OWJmLTkyZTAtMzA1ZTgzYTBhZTRiIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlJ5bVRDRkVyWWhlamxYMmlkYU9hbmZEeHdvOD0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMdzVwTTcxOVoyRisxV1FVYURYUDljMU1YRmM9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiVERQSkVBVjciLCJtZSI6eyJpZCI6IjI1NDc5ODAzMzg0NDo0MEBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTWFWMjdBRkVJajBtcllHR0FrZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiQW84RGVPNEM3cksySHgveThYdEdaR3Z5Y2NoVWdTT2ZUY0pMeW90WXNEND0iLCJhY2NvdW50U2lnbmF0dXJlIjoidy9BQWt4dmJMTUlNYWxZZWtZRFlUTWIzWWxWZEQxY2ZxMWpOaWJkclhUbzlmamphS2dPRHdGM2M5NDZGNXNWVkJIcm42a1RXWjE3cmFqQ0pzTHlSQnc9PSIsImRldmljZVNpZ25hdHVyZSI6Im5Qd2xpRlpsc3U4cmx5REJyTkpkMEcrYU80cEluWWtsbTFGdWlWVEVHVjJnZ3BjOHZ5Vy9jaHQ5NGtSVWJNMVRtWWhpTVpOd0llYmtyVDkzc1BmL2l3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0Nzk4MDMzODQ0OjQwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlFLUEEzanVBdTZ5dGg4Zjh2RjdSbVJyOG5ISVZJRWpuMDNDUzhxTFdMQSsifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjQyOTk3OTd9",
       "required":true
       
     },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "TalkDrove"
+    "value": "Caxton Derick"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number, dont' put '+' and put you area code(exemple. '92')",
     "required":false,
-    "value": "923072380380"
+    "value": "254798033844"
   },
     "WARN_COUNT":
   {
@@ -100,12 +100,12 @@
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
     "value":"1",  
-    "required": false
+    "required": true
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
-    "required": false
+    "required": true
   }
   },
 
